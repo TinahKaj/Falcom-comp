@@ -1,0 +1,91 @@
+.formality{
+    background-color: rgb(196, 191, 191);
+    width: 30%;
+    margin: 10%;
+    border-radius: 4px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.formality h1{
+    text-align: right;
+}
+
+.formality a {
+    padding-right: 10px;
+}
+
+.cat:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formality a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color:  aliceblue;
+    border:solid 1px rgb(218, 216, 216);
+    font-size: smaller;
+    border-radius: 2px;
+}
+
+.formality button{
+    border: none;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 3px;
+}
+
+
+.addbtn{
+    background-color: rgb(27, 27, 141);
+}
+
+.addbtn:hover{
+    color: white;
+    background-color: rgb(21, 21, 87);
+}
+
+.drop2{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.ctgories{
+    position: relative;
+    display: inline-block;
+    margin-right: 20%;
+}
+
+.ctgories:hover .drop2 {
+    display: block;
+}
+
+.ctgories a:hover{
+    background-color: rgb(202, 229, 252);
+}
+
+.ctgories a {
+    padding: 4px;
+}
+
+.ctgories button:hover{
+    background-color: rgb(211, 232, 250);
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    font-family: 'Caveat', 'san serif';
+    background-color: rgb(63, 63, 148);
+}
+nav{
+    background-color: aliceblue;
+    width: 100%;
+    padding: 2%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+h1{
+    padding-right: 30%;
+    color: rgb(27, 27, 141);
+    margin-top: 15px; 
+}
+
+.more{
+    padding-left: 20%;
+    margin-top: 20px;
+}
+.details{
+    margin-top: 20px;  
+}
+a{
+    text-decoration: none;
+    color: rgb(27, 27, 141);
+    padding: 4px;
+   
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropcontent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.details a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color:  aliceblue;
+    border:solid 1px rgb(218, 216, 216);
+    font-size: smaller;
+    border-radius: 2px;
+}
+
+.dropdown:hover .dropcontent{
+    display: block;
+    transition-delay: 1s;
+}
+
+.details button{
+    border: none;
+    background-color:  aliceblue;
+    font-family: 'Caveat', 'san serif';
+}
+
+.more button{
+    border: none;
+    background-color:  aliceblue;
+    font-family: 'Caveat', 'san serif';
+}
+
+ .details button:hover {
+    background-color: rgb(211, 232, 250);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.more button:hover {
+    background-color: rgb(211, 232, 250);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.dropdown:hover .button{
+    background-color:  rgb(211, 232, 250);
+}
+
+.dropcontent a:hover {
+    background-color:  rgb(211, 232, 250);
+}
+
+.more a:hover{
+    background-color: rgb(211, 232, 250);
+    border-radius: 5px;
+}
+
+.more a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color:  aliceblue;
+    border:solid 1px rgb(218, 216, 216);
+    font-size: smaller;
+    border-radius: 2px;
+}
